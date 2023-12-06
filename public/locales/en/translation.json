@@ -2,5 +2,8 @@
   "Перевод": "Translate",
   "Главная страница": "Main page",
   "Язык": "English",
-  "Страница не найдена": "Page noy found"
+  "Страница не найдена": "Page noy found",
+  "Произошла непредвиденная ошибка": "An unexpected error occurred",
+  "Обновить страницу": "Refresh the page",
+  "Выбросить ошибку": "throw error"
 }
