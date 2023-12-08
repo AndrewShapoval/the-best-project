@@ -3,6 +3,7 @@ import { ButtonHTMLAttributes, FC } from 'react';
 import cls from './Button.module.scss';
 
 export enum variantButton {
+    // eslint-disable-next-line no-unused-vars
     CLEAR = 'clear',
     OUTLINE = 'outline',
 
