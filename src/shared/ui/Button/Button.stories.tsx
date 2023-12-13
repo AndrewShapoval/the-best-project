@@ -20,62 +20,68 @@ Primary.args = {
     children: 'Text',
 };
 
+export const ClearInverted = Template.bind({});
+ClearInverted.args = {
+    children: 'Text',
+    variant: ButtonVariant.CLEAR_INVERTED,
+};
+
 export const Clear = Template.bind({});
 Clear.args = {
     children: 'Text',
-    theme: ButtonVariant.CLEAR,
+    variant: ButtonVariant.CLEAR,
 };
 
 export const Outline = Template.bind({});
 Outline.args = {
     children: 'Text',
-    theme: ButtonVariant.OUTLINE,
+    variant: ButtonVariant.OUTLINE,
 };
 
 export const OutlineSizeL = Template.bind({});
 OutlineSizeL.args = {
     children: 'Text',
-    theme: ButtonVariant.OUTLINE,
+    variant: ButtonVariant.OUTLINE,
     size: ButtonSize.L,
 };
 
 export const OutlineSizeXl = Template.bind({});
 OutlineSizeXl.args = {
     children: 'Text',
-    theme: ButtonVariant.OUTLINE,
+    variant: ButtonVariant.OUTLINE,
     size: ButtonSize.XL,
 };
 
 export const OutlineDark = Template.bind({});
 OutlineDark.args = {
     children: 'Text',
-    theme: ButtonVariant.OUTLINE,
+    variant: ButtonVariant.OUTLINE,
 };
 OutlineDark.decorators = [ThemeDecorator(Theme.DARK)];
 
 export const BackgroundTheme = Template.bind({});
 BackgroundTheme.args = {
     children: 'Text',
-    theme: ButtonVariant.BACKGROUND,
+    variant: ButtonVariant.BACKGROUND,
 };
 
 export const BackgroundInverted = Template.bind({});
 BackgroundInverted.args = {
     children: 'Text',
-    theme: ButtonVariant.BACKGROUND_INVERTED,
+    variant: ButtonVariant.BACKGROUND_INVERTED,
 };
 
 export const Square = Template.bind({});
 Square.args = {
     children: '>',
-    theme: ButtonVariant.BACKGROUND_INVERTED,
+    variant: ButtonVariant.BACKGROUND_INVERTED,
     square: true,
 };
 
 export const SquareSizeL = Template.bind({});
 SquareSizeL.args = {
     children: '>',
-    theme: ButtonVariant.BACKGROUND_INVERTED,
+    variant: ButtonVariant.BACKGROUND_INVERTED,
     square: true,
     size: ButtonSize.L,
 };
@@ -83,7 +89,7 @@ SquareSizeL.args = {
 export const SquareSizeXl = Template.bind({});
 SquareSizeXl.args = {
     children: '>',
-    theme: ButtonVariant.BACKGROUND_INVERTED,
+    variant: ButtonVariant.BACKGROUND_INVERTED,
     square: true,
     size: ButtonSize.XL,
 };
