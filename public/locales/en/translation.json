@@ -11,5 +11,7 @@
   "Переключить": "Toggle",
   "Короткий язык": "En",
   "Войти": "Login",
+  "Увеличить": "increment",
+  "Уменьшить": "decrement",
   "Lorem ipsum": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid commodi consequatur eligendi impedit incidunt necessitatibus possimus quis saepe sunt totam"
 }
